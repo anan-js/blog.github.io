@@ -9,11 +9,11 @@ VSCode Debugger 调试的时候需要创建调试配置，默认生成的配置�
 
 比如调试 Vue 项目时，默认生成的调试配置是这样的：
 
-![img](./vscode_snippets/c5e1b0b22b3b4b939569f4c39d9b2e60~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/c5e1b0b22b3b4b939569f4c39d9b2e60~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 而我们最终用的是这样：
 
-![img](./vscode_snippets/07b9c5fd102945378ca19a0052b56a4f~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/07b9c5fd102945378ca19a0052b56a4f~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 那能不能像生成默认配置一样，快速生成我们需要的调试配置呢？
 
@@ -21,25 +21,25 @@ VSCode Debugger 调试的时候需要创建调试配置，默认生成的配置�
 
 Snippets 是代码片段的意思，输入前缀就可以快速填入代码片段。
 
-![img](./vscode_snippets/dc3cf1c32c774820b112f12f23c76c6f~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/dc3cf1c32c774820b112f12f23c76c6f~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 我们如何自己写一个 Snipppets 呢？
 
 按住 cmd + shift + p 调出 VSCode 命令面板，输入 snippets，选择 Configure User Snippets：
 
-![img](./vscode_snippets/bcc32a28b53a4465ba9e3f6ca0bd2624~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/bcc32a28b53a4465ba9e3f6ca0bd2624~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 创建一个项目级别的 Snippets：
 
-![img](./vscode_snippets/c0f3581574b848408e24391b57bf24c6~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/c0f3581574b848408e24391b57bf24c6~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 在 .vscode 下就会多出一个 xx.code-snippets 的文件：
 
-![img](./vscode_snippets/f843eef9b3064bfc85615a9ff9d43443~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/f843eef9b3064bfc85615a9ff9d43443~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 注释的部分就是 demo 配置，我们把它打开：
 
-![img](./vscode_snippets/042e7e7665d64053810499e8feb8dd3c~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/042e7e7665d64053810499e8feb8dd3c~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 - prefix 就是这个 snippets 生效的前缀
 - body 是插入的内容
@@ -48,7 +48,7 @@ Snippets 是代码片段的意思，输入前缀就可以快速填入代码片�
 
 这个 snippets 的作用就是在这个项目目录下的 js、ts 文件里，输入 log 的时候会提示，选中之后就会插入 body 部分的内容。
 
-![img](./vscode_snippets/f7ec854f921a4953a56cd20991c83956~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/f7ec854f921a4953a56cd20991c83956~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 body 部分是待插入的代码，支持很多语法，也是一种 DSL（领域特定语言）。
 
@@ -59,7 +59,7 @@ bash复制代码"$1  xxxx",
 "yyyy $2"
 ```
 
-![img](./vscode_snippets/73dee9d5da2c46859573c1f0b62aaf22~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/73dee9d5da2c46859573c1f0b62aaf22~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 可以多光标同时编辑：
 
@@ -69,7 +69,7 @@ bash
 复制代码"$1  xxxx $1"
 ```
 
-![img](./vscode_snippets/ed35db4d59004fa1ad3208986f766792~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/ed35db4d59004fa1ad3208986f766792~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 可以加上 placeholader，也可以做默认值：
 
@@ -78,7 +78,7 @@ bash复制代码"${1:aaa}  xxxx",
 "yyyy ${2:bbb}"
 ```
 
-![img](./vscode_snippets/11362e30db9344b296fada45e96420e6~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/11362e30db9344b296fada45e96420e6~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 可以提供多个值来选择：
 
@@ -88,7 +88,7 @@ bash
 复制代码"你好${1|光光,东东|}"
 ```
 
-![img](./vscode_snippets/8f7d79702ab94eaa9ac2fced34890b34~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/8f7d79702ab94eaa9ac2fced34890b34~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 还提供了一些变量可以取：
 
@@ -97,7 +97,7 @@ bash复制代码"当前文件： $TM_FILENAME",
 "当前日期： $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE"
 ```
 
-![img](./vscode_snippets/9e6f26da95114b66a1eb96347ccf4ab6~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/9e6f26da95114b66a1eb96347ccf4ab6~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 所有可用变量可以在 [VSCode 文档](https://link.juejin.cn/?target=https%3A%2F%2Fcode.visualstudio.com%2Fdocs%2Feditor%2Fuserdefinedsnippets%23_variables)里看到。
 
@@ -109,7 +109,7 @@ bash
 复制代码"${TM_FILENAME/(.*)\\.[a-z]+/${1:/upcase}/i}"
 ```
 
-![img](./vscode_snippets/a05e4333aeda48829cc791377217049b~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/a05e4333aeda48829cc791377217049b~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 一共就这些语法：
 
@@ -145,11 +145,11 @@ React 项目的调试配置可能是这样的：
 
 不过有[工具网站 snippet-generator.app ](https://link.juejin.cn/?target=https%3A%2F%2Fsnippet-generator.app%2F)来做这件事情，只需要把内容贴在左边，那么在右边就会展示变为 snippets 之后的配置。
 
-![img](./vscode_snippets/29519009346443d1a50842e3b413e1e8~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/29519009346443d1a50842e3b413e1e8~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 把它复制出来然后再做一些修改：
 
-![img](./vscode_snippets/8e58931dabae40398074883fce9547a9~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/8e58931dabae40398074883fce9547a9~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 注意 ${workspaceFolder} 这部分和 snippets 的语法有冲突，所以需要加上个 \ 来转义。
 
@@ -159,25 +159,25 @@ jsonc 是 json with comments，带注释的 json，因为 json 语法是不支�
 
 点击右下角的语言部分：
 
-![img](./vscode_snippets/fb30084074224ea2958559368125677d~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/fb30084074224ea2958559368125677d~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 可以切换文件的语言：
 
-![img](./vscode_snippets/d9c31435450f49f390762091c90fb688~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/d9c31435450f49f390762091c90fb688~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 会发现 json 文件对应两种语言，所以这里 scope 都要填上。
 
 这样创建 React 调试配置的时候就方便了。
 
-![img](./vscode_snippets/12ed5de19d3240e0ba9af782c6462db2~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/12ed5de19d3240e0ba9af782c6462db2~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 上面的 snippets 还可以进一步优化，比如端口的部分可以指定光标输入，默认是 8080：
 
-![img](./vscode_snippets/b1fe972dc8594ce8b241b67e3e4e99d8~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/b1fe972dc8594ce8b241b67e3e4e99d8~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 这样在创建调试配置的时候能顺便把端口也改了：
 
-![img](./vscode_snippets/46655d54da5e4865bbfc5b2355fcac0b~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/46655d54da5e4865bbfc5b2355fcac0b~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 当然，前面提到的 snippets 的语法都可以用起来，封装适合自己的创建调试配置的 snippets。
 
@@ -185,9 +185,9 @@ jsonc 是 json with comments，带注释的 json，因为 json 语法是不支�
 
 其实 snippets 一共三种范围：
 
-![img](./vscode_snippets/ebbf118868d24d06b9766f9b1e459d80~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/ebbf118868d24d06b9766f9b1e459d80~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
-![img](./vscode_snippets/c2705b9316eb4ef2a683b5327f989864~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.awebp)
+![img](./VSCode_snippets/c2705b9316eb4ef2a683b5327f989864~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 全局级别是全局生效的，项目级别只在当前项目生效，语言级别是某种语言的文件里生效。
 
