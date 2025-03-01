@@ -72,7 +72,7 @@ VSCode Debugger 以 attach 的方式启动，是需要连接 ws 调试服务的�
 
 默认值是 ${command: PickProcess} 这个会弹出一个选择窗口：
 
-![img](./vscode-node-debugger/b1b54798d0cc43b692c9df931de681d3~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.jpg)
+![img](./vscode-node-debugger/b1b54798d0cc43b692c9df931de681d3~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.gif)
 
 选择 98700 的那个进程，attach 即可。
 
