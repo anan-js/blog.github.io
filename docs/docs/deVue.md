@@ -8,7 +8,7 @@ categories:
   - 前端
   - 源码
 createTime: 2022/03/01 19:52:38
-permalink: /article/fifl4wqg/
+permalink: /article/ont48sux/
 ---
 知道了如何调试 React 源码，这节我们再来调试下 Vue 源码。
 

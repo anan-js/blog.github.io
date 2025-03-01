@@ -18,7 +18,9 @@ export default defineUserConfig({
     ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
   ],
 
-  bundler: viteBundler(),
+  bundler: viteBundler({
+    viteOptions:{assetsInclude: ['**/*.awebp']}
+  }),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
   theme: plumeTheme({
