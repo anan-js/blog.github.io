@@ -2,6 +2,9 @@
 title: 大文件上传
 createTime: 2025/03/02 14:40:09
 permalink: /article/44u5oc9n/
+tags:
+  - upload
+  - vue
 ---
 # 大文件上传
 

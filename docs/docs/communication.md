@@ -2,6 +2,10 @@
 title: 前端实现即时通讯，常用的技术包括短轮询、长轮询、WebSocket和SSE
 createTime: 2025/03/02 15:11:00
 permalink: /article/aomd5h4p/
+tags:
+  - WebSocket
+categories:
+  - 前端
 ---
 ## **短轮询**
 

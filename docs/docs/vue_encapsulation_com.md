@@ -2,6 +2,8 @@
 title: vue组件封装技巧
 createTime: 2022/03/02 15:03:04
 permalink: /article/p8lw30zx/
+tags:
+  - vue
 ---
 在开发 Vue 项目中我们一般使用第三方 UI 组件库进行开发，如 `Element-Plus`, 但是这些组件库提供的组件并不一定满足我们的需求，这时我们可以通过对组件库的组件进行二次封装，来满足我们特殊的需求。
 

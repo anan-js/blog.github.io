@@ -2,6 +2,9 @@
 title: vscode-node-debugger
 createTime: 2025/03/01 09:38:19
 permalink: /article/8otdsbl2/
+tags:
+  - Debugger
+  - node
 ---
 VSCode Node Debugger 的常用配置。
 

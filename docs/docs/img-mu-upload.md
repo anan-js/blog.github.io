@@ -2,6 +2,11 @@
 title: 多图片上传
 createTime: 2025/03/02 14:55:56
 permalink: /article/7f3n5ror/
+tags:
+  - upload
+  - vue
+categories:
+  - 前端
 ---
 - ![img](./img-mu-upload/1729839140249-49143659-1ed5-427a-a319-859f904d493a.png)
 

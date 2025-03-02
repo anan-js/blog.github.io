@@ -1,7 +1,6 @@
 ---
 title: 调试 patch-package 源码
 tags:
-  - patch-package
   - Debugger
   - 工程化
 categories:

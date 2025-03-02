@@ -2,6 +2,9 @@
 title: VSCode-debugger-react
 createTime: 2025/03/02 14:23:46
 permalink: /article/txdfvuu2/
+tags:
+  - Debugger
+  - react
 ---
 Vue、React 的项目怎么调试我们都知道了，这节我们来调试下 React 的源码。
 
