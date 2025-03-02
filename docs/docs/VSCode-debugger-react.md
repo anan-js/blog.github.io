@@ -322,7 +322,7 @@ root.render(React.createElement(Aaa));
 在 html 里引入产物 bundle：
 
 ```html
-html复制代码<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -350,15 +350,13 @@ html复制代码<!DOCTYPE html>
 
 这时候调用栈中的就是 React 的源码。
 
-这个项目我放到了[小册的仓库](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2FQuarkGluonPlasma%2Ffe-debug-exercize%2F)里。
-
 只不过因为现在 workspace 中没有对应的文件，可以用同样的方式把 react 源码项目和 demo 项目放到一个 workspace，然后再调试：
 
 ![img](./VSCode-debugger-react/f336e59289b646dbb0bf557f9f9d6c1b~tplv-k3u1fbpfcp-jj-mark_1512_0_0_0_q75.webp)
 
 这样就能调试 React 源码，并且直接在编辑器里打开对应的文件了。
 
-有的同学可能会说，这样直接修改了 node_modules 下的文件感觉不太好，下次安装就没了。
+这样直接修改了 node_modules 下的文件感觉不太好，下次安装就没了。
 
 这个问题可以用 patch-package 解决：
 
