@@ -3,7 +3,7 @@ title: 项目安装TypeScript和配置
 createTime: 2025/03/02 15:07:05
 tags:
   - typescrip
-permalink: /article/w28ukmwf/
+permalink: /article/typescrip/
 ---
 # 安装与使用
 
