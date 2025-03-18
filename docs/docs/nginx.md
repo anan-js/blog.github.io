@@ -109,8 +109,8 @@ server {
 ①先在部署Nginx的机器，Nginx目录下创建一个目录static_resources：
 
 ```bash
-mkdir static_resources  
-```
+mkdir static_resources   
+``` 
 
 ②将项目中所有的静态资源全部拷贝到该目录下，而后将项目中的静态资源移除重新打包。
 
