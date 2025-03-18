@@ -86,7 +86,7 @@ const props = {
     validator: (v) => ['vertical', 'horizontal'].includes(v),
   },
 };
-```
+``` 
 
 这里我们再来聊下 `inheritAttrs` 属性：默认情况下，父组件传递的，但没有被子组件解析为 props 的 attributes 绑定会被 “透传”。这意味着当我们有一个单根节点的子组件时，这些绑定会被作为一个常规的 HTML attribute 应用在子组件的根节点元素上，当你编写的组件想要在一个目标元素或其他组件外面包一层时，可能并不期望这样的行为。
 
