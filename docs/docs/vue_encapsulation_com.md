@@ -1,6 +1,6 @@
 ---
 title: vue组件封装技巧
-createTime: 2022/03/02 15:03:04
+createTime: 2023/03/02 15:03:04
 permalink: /article/p8lw30zx/
 tags:
   - vue

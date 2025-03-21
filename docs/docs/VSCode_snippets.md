@@ -1,6 +1,6 @@
 ---
 title: vscode_snippets
-createTime: 2025/03/02 02:51:18
+createTime: 2024/10/03 22:38:17
 permalink: /article/qem3mwhx/
 tags:
   - 快捷

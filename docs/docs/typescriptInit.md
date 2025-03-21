@@ -1,6 +1,6 @@
 ---
 title: 项目安装TypeScript和配置
-createTime: 2025/03/02 15:07:05
+createTime: 2023/09/15 19:22:34
 tags:
   - typescrip
 permalink: /article/typescrip/

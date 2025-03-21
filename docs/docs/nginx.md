@@ -1,6 +1,6 @@
 ---
 title: nginx
-createTime: 2025/03/18 23:43:52
+createTime: 2024/02/27 21:55:50
 permalink: /article/8zh2ad76/
 ---
 单体节点部署

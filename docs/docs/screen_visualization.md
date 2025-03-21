@@ -1,6 +1,6 @@
 ---
 title: 前端大屏可视化项目适配方案
-createTime: 2025/03/02 15:07:05
+createTime: 2024/10/03 22:38:17
 permalink: /article/w28ukmwf/
 ---
 #### echarts在vue或者react中使用存在的问题
